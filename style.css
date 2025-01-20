@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 * {
     margin: 0;
@@ -6,10 +6,10 @@
     box-sizing: border-box;
 }
 
-.inter-font {
-    font-family: "Inter", serif;
+.quicksand-font {
+    font-family: "Quicksand", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
   }
   
@@ -144,4 +144,129 @@ font-size: 25px;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+.curriculum {
+    background: url('./assets/bg.png') ;
+    padding: 3rem;
+    text-align: center;
+margin-top: 70px;
+
+}
+
+.curriculum h2 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: grid;
+   grid-template-columns: repeat(3,25%);
+    justify-content: center;
+    gap: 1.5px;
+}
+
+.card-a {
+    background: linear-gradient(145deg, #f9f9f9, #ececec);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1.5rem;
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+   
+}
+.card-b {
+    background: linear-gradient(145deg, #f9f9f9, #ececec);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1.5rem;
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-c {
+    background: linear-gradient(145deg, #f9f9f9, #ececec);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1.5rem;
+    width: 350px;
+    height: 400px;
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-a img {
+    max-width: 80px;
+    margin-bottom: 1rem;
+}
+
+.card-a h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+.card-a p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.card-a a {
+    text-decoration: none;
+    color: rgb(100, 200, 255);
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+.card-b img {
+    max-width: 80px;
+    margin-bottom: 1rem;
+}
+
+.card-b h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+.card-b p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.card-b a {
+    text-decoration: none;
+    color: rgb(240, 170, 0);
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+.card-c img {
+    max-width: 80px;
+    margin-bottom: 1rem;
+}
+
+.card-c h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+.card-c p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.card-c a {
+    text-decoration: none;
+    color: rgb(135, 0, 255);
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
 }
