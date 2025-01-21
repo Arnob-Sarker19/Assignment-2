@@ -148,7 +148,7 @@ font-size: 25px;
 
 .curriculum {
     background: url('./assets/bg.png') ;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
 margin-top: 70px;
 
@@ -161,10 +161,11 @@ margin-top: 70px;
 }
 
 .cards {
-    display: grid;
-   grid-template-columns: repeat(3,25%);
+    display: flex;
+   /* grid-template-columns: repeat(3,25%); */
     justify-content: center;
-    gap: 1.5px;
+    gap: 50px;
+    max-width: 2000px;
 }
 
 .card-a {
@@ -172,9 +173,9 @@ margin-top: 70px;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 1.5rem;
-    width: 300px;
-    height: 400px;
+    padding: 3rem;
+    width: 350px;
+    height: 500px;
     background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
    
 }
@@ -183,9 +184,9 @@ margin-top: 70px;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 1.5rem;
-    width: 300px;
-    height: 400px;
+    padding: 4rem;
+    width: 350px;
+    height: 500px;
     background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 .card-c {
@@ -193,26 +194,27 @@ margin-top: 70px;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 1.5rem;
+    padding: 4rem;
     width: 350px;
-    height: 400px;
+    height: 500px;
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 .card-a img {
-    max-width: 80px;
+    max-width: 90px;
     margin-bottom: 1rem;
 }
 
 .card-a h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #222;
+    color: rgb(32, 32, 32);
+    
 }
 
 .card-a p {
     font-size: 1rem;
-    margin-bottom: 1.5rem;
-    color: #555;
+    margin-bottom: 1.6rem;
+    color: rgb(128, 128, 128);
 }
 
 .card-a a {
@@ -223,20 +225,21 @@ margin-top: 70px;
     transition: color 0.3s;
 }
 .card-b img {
-    max-width: 80px;
+    max-width: 90px;
     margin-bottom: 1rem;
 }
 
 .card-b h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #222;
+    color: rgb(32, 32, 32);
+    
 }
 
 .card-b p {
     font-size: 1rem;
-    margin-bottom: 1.5rem;
-    color: #555;
+    margin-bottom: 1.6rem;
+    color: rgb(128, 128, 128);
 }
 
 .card-b a {
@@ -244,23 +247,24 @@ margin-top: 70px;
     color: rgb(240, 170, 0);
     font-weight: bold;
     font-size: 1rem;
-    transition: color 0.3s;
+    
 }
 .card-c img {
-    max-width: 80px;
+    max-width: 90px;
     margin-bottom: 1rem;
 }
 
 .card-c h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #222;
+    color: rgb(32, 32, 32);
+    
 }
 
 .card-c p {
     font-size: 1rem;
-    margin-bottom: 1.5rem;
-    color: #555;
+    margin-bottom: 1.6rem;
+    color: rgb(128, 128, 128);
 }
 
 .card-c a {
@@ -268,7 +272,7 @@ margin-top: 70px;
     color: rgb(135, 0, 255);
     font-weight: bold;
     font-size: 1rem;
-    transition: color 0.3s;
+    
 }
 
 
@@ -368,15 +372,50 @@ margin-top: 70px;
 
 .date {
     position: absolute;
-    top: 110px;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    padding: 3px 8px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: 600;
+    width: 174.51px;
+    height: 38.35px;
+    left: 38.35px;
+    top: 167.81px;
+    border-radius: 47.93px;
+    padding: 0.4rem;
+    background: rgb(149, 178, 38);
+color: white;
+}
+
+.date-c {
+    position: absolute;
+    width: 174.51px;
+    height: 38.35px;
+    left: 38.35px;
+    top: 172.81px;
+    border-radius: 47.93px;
+    padding: 0.4rem;
+    background: rgb(149, 178, 38);
+color: white;
+}
+
+.date-a {
+    position: absolute;
+    width: 174.51px;
+    height: 38.35px;
+    left: 38.35px;
+    top: 167.81px;
+    border-radius: 47.93px;
+    padding: 0.4rem;
+    background: rgb(93, 88, 240);
+    color: white;
+}
+
+.date-b {
+    position: relative;
+    width: 174.51px;
+    height: 38.35px;
+    left: 70px;
+    top: -25px;
+    border-radius: 47.93px; 
+padding: 0.4rem;
+    background: rgb(60, 216, 232);
+    color: white;
 }
 
 .story-content {
