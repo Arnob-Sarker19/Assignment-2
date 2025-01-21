@@ -293,7 +293,10 @@ margin-top: 70px;
     
 
 }
-
+.arrow:hover{
+    background-color: rgb(1, 60, 254);
+    color: white;
+}
 
 .c {
    
@@ -314,7 +317,7 @@ margin-top: 70px;
 
 .stories {
     display: flex;
-    /* grid-template-columns: 2fr 1fr; */
+    
     justify-content: center;
     gap: 20px;
     max-width: 1300px;
@@ -474,6 +477,11 @@ letter-spacing: 0%;
     font-size: 16px;
     line-height: 1.6;
     margin-top: 10px;
+}
+
+.keep-in-touch{
+    position: relative;
+    margin-top: -100px;
 }
 
 .about-school, .keep-in-touch {
@@ -663,6 +671,7 @@ letter-spacing: 0%;
 .keep-in-touch{
     position: relative;
     margin-left: -7.5rem;
+    margin-top: -1rem;
 }
     .social-icons {
         margin-top: 20px;
