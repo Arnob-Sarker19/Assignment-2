@@ -270,3 +270,99 @@ margin-top: 70px;
     font-size: 1rem;
     transition: color 0.3s;
 }
+
+
+.arrow-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    gap: 10px;
+}
+
+.arrow {
+    background-color: rgb(254, 163, 1);
+    border: none;
+    padding: 0.8rem;
+    border-radius: 50%;
+
+    
+
+}
+
+
+
+
+
+
+
+
+.f{
+    background-color: #00AEEF;
+    color: white;  
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    text-align: left;
+}
+
+.footer-left {
+    max-width: 400px;
+}
+
+.footer-left h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.footer-left p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.about-school, .keep-in-touch {
+    text-align: left;
+}
+
+.about-school h3, .keep-in-touch h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.about-school ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-school ul li {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+.logo h1 {
+    font-weight: 600;
+    font-size: 28px;
+}
