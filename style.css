@@ -317,7 +317,7 @@ margin-top: 70px;
     /* grid-template-columns: 2fr 1fr; */
     justify-content: center;
     gap: 20px;
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 30px auto;
 }
 
@@ -371,11 +371,11 @@ margin-top: 70px;
 }
 
 .date {
-    position: absolute;
+    position: relative;
     width: 174.51px;
     height: 38.35px;
-    left: 38.35px;
-    top: 167.81px;
+    left: 20.35px;
+    top: -25.81px;;
     border-radius: 47.93px;
     padding: 0.4rem;
     background: rgb(149, 178, 38);
@@ -383,11 +383,11 @@ color: white;
 }
 
 .date-c {
-    position: absolute;
+    position: relative;
     width: 174.51px;
     height: 38.35px;
-    left: 38.35px;
-    top: 172.81px;
+    left: 20.35px;
+    top:  -25.81px;;
     border-radius: 47.93px;
     padding: 0.4rem;
     background: rgb(149, 178, 38);
@@ -395,11 +395,11 @@ color: white;
 }
 
 .date-a {
-    position: absolute;
+    position: relative;
     width: 174.51px;
     height: 38.35px;
-    left: 38.35px;
-    top: 167.81px;
+    left: 20.35px;
+    top: -25.81px;
     border-radius: 47.93px;
     padding: 0.4rem;
     background: rgb(93, 88, 240);
@@ -478,6 +478,7 @@ letter-spacing: 0%;
 
 .about-school, .keep-in-touch {
     text-align: left;
+  
 }
 
 .about-school h3, .keep-in-touch h3 {
@@ -516,4 +517,155 @@ letter-spacing: 0%;
 .logo h1 {
     font-weight: 600;
     font-size: 28px;
+}
+.hamburger{
+   display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.hamburger span {
+    background: #333;
+    height: 4px;
+    width: 30px;
+    margin: 4px 0;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 576px) {
+    .btn {
+        display: none;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: #fff;
+        width: 100%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 15px 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+
+
+
+    /*  */
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 35px;
+        font-weight: 900;
+    }
+
+    .hero-image {
+        max-width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+.curriculum h2 {
+    font-size: 30px;
+}
+
+    .card-a, .card-b, .card-c {
+        width: 100%;
+    }
+
+    .arrow-navigation {
+        display: none;
+    }
+
+    .stories {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .large-story {
+        display: none;
+    }
+
+    .large-story-content {
+        padding: 20px;
+    }
+
+    .small-stories {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .date {
+        
+        left: 5px;
+        top: -25px;
+    }
+    .date-a {
+        
+        left: 5px;
+        top: -25px;
+    }
+    .date-b {
+        
+        left: 5px;
+        top: -25px;
+    }
+    .date-c {
+        
+        left: 5px;
+        top: -25px;
+    }
+
+    .story {
+        max-width: 100%;
+    }
+
+    .footer {
+        position: relative;
+        flex-direction: column;
+        gap: 20px;
+        text-align: left;
+    }
+
+ .about-school{
+    position: relative;
+       margin-left: -12.4rem;
+    }
+.m{
+    position: relative;
+    margin-left: 1rem;
+}
+    .footer-left {
+        position: relative;
+        max-width: 100%;
+        margin-left: -1.5rem;
+    }
+.keep-in-touch{
+    position: relative;
+    margin-left: -7.5rem;
+}
+    .social-icons {
+        margin-top: 20px;
+    }
+    
 }
